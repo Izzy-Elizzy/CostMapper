@@ -7,7 +7,7 @@ import geopandas as gpd
 
 m = folium.Map(location=[38.8, -96.8], zoom_start=6)
 
-counties = gpd.read_file(".\\States\\gz_2010_us_040_00_5m\\gz_2010_us_040_00_5m.shp")
+counties = gpd.read_file(".\\data\\States\\gz_2010_us_040_00_5m\\gz_2010_us_040_00_5m.shp")
 
 folium.GeoJson(
     counties,
