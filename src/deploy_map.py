@@ -7,14 +7,14 @@ import geopandas as gpd
 
 m = folium.Map(location=[38.8, -96.8], zoom_start=6)
 
+#Collect Data
+#Pandas - 
+#GeoPandas
+
 counties = gpd.read_file(".\\data\\States\\gz_2010_us_040_00_5m\\gz_2010_us_040_00_5m.shp")
 
 folium.GeoJson(
     counties,
-    name="counties",
-    fill_opacity=0.2,
-    line_weight=1,
-    zoom_on_click=True
 ).add_to(m)
 
 app = Flask(__name__)
