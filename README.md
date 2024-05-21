@@ -2,8 +2,8 @@
 
 This project aims to provide a comprehensive livability rating for different locations, presented in the form of an interactive map. The livability rating is calculated based on various factors such as housing prices, rent, mortgage rates, food costs, utility costs, and median salaries. Users can explore the map and view the livability ratings for different areas.
 
-ACCESS HERE: https://costmapper.netlify.app/
-             https://izzy-elizzy.github.io/CostMapper/
+ACCESS HERE: https://izzy-elizzy.github.io/CostMapper/
+             
              
 
 ## Features
