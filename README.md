@@ -21,12 +21,12 @@ This project aims to provide a comprehensive livability rating for different loc
 
 The following formulas are used to calculate the individual scores:
 
-- **Housing Score**: `Housing Score = 1 / (1 + (Housing Price / National Median Housing Price))`
-- **Rent Score**: `Rent Score = 1 / (1 + (Rent Value / National Median Rent))`
+- **Housing Score**: `Housing Score = 1 / (1 + (Housing Price / National Median Housing Price))` ✔️ - 5-21
+- **Rent Score**: `Rent Score = 1 / (1 + (Rent Value / National Median Rent))`✔️ - 5-21
 - **Mortgage Score**: `Mortgage Score = 1 / (1 + (Mortgage Rate/Cost / National Median Mortgage Rate/Cost))`
 - **Food Score**: `Food Score = 1 / (1 + (Food Cost / National Median Food Cost))`
 - **Utilities Score**: `Utilities Score = 1 / (1 + (Utility Cost / National Median Utility Cost))`
-- **Salary Score**: `Salary Score = 1 / (1 + (National Median Salary / Median Salary))`
+- **Salary Score**: `Salary Score = 1 / (1 + (National Median Salary / Median Salary))`✔️ - 5-21
 
 The overall livability rating is calculated using the following equation:
 
