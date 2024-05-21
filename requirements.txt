@@ -1,5 +1,0 @@
-folium
-flask
-geopandas
-plotly
-plotly-geo
